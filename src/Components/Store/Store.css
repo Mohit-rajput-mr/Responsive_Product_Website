@@ -1,0 +1,74 @@
+.map{
+    position: relative;
+    top: -50px;
+}
+
+.map-container {
+    position: relative; 
+    height: 400px; 
+    width: 80%;
+    margin: 0 auto; 
+    top: -50px; 
+    margin-right: -90px;
+    transform: translateY(-50%); 
+    z-index: 1; 
+   
+  }
+.hdrbg{
+    position: relative;
+    top: -290px;
+}
+.head2{
+    position: relative;
+    color: white;
+    z-index: 10;
+    font-size: 78px;
+    text-align: center;
+    top: 58px;
+    font-family:inherit;
+
+}
+.search-box{
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 30px;
+    
+}
+.input{
+    height: 50px;
+    width: auto;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(50, 207, 6);
+    border-radius: 10px;
+}
+.searchm {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(147, 245, 0); 
+    border: 1px solid rgb(0, 0, 0); 
+    border-radius: 10px;
+    transition: background-color 0.3s, border-color 0.3s, transform 0.3s; 
+}
+
+.searchm:hover {
+    background-color: rgb(165, 255, 0);
+    border-color: rgb(34, 34, 34); 
+    transform: scale(0.95); 
+}
+.alert-box{
+
+    color: white;
+    position: relative;
+    top: 100px;
+    right: -800px;
+
+}
+.red_icon{
+    position: relative;
+    width: 30px;
+    height: auto;
+    top: 7px;
+}
+
+

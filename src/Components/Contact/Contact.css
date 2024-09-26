@@ -1,0 +1,96 @@
+
+.contact-container {
+    margin-top: 180px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-box {
+    
+    width: 1000px;
+    padding: 20px;
+    background-color: rgba(51, 50, 50, 0.222);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 1px solid rgb(77, 76, 76);
+  }
+  
+  .c-h1 {
+    font-size: 44px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .c-pic{
+    position: absolute;
+    width: 375px;
+    height: auto;
+    top: 1965px;
+    right: 360px;
+    border-radius: 6px;
+
+  }
+  .c-h4{
+    position: absolute;
+    margin-top: -110px;
+    margin-left: -10px;
+    color: rgb(0, 174, 255);
+    font-weight: lighter;
+  }
+
+  .contact-form .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    max-width: 300px;
+
+  }
+  
+  .contact-form label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #4e4e4e;
+    border-radius: none;
+    background-color: black;
+    font-size: larger;
+    color: white;
+  }
+  
+  .contact-form input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #218838;
+  }
+  .send-text{
+    color: white;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .s-m{
+    color: rgb(237, 74, 126);
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }

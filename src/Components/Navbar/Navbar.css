@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Lilita+One&family=Outfit:wght@100..900&family=Play:wght@400;700&display=swap');
+
+body{
+    padding-top: 120px;
+}
+nav .navsec {
+    position: relative;
+    z-index: 100;
+}
+
+.navsec {
+    width: 100%;
+    padding: 4px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    transition: top 0.3s ease-in-out; 
+}
+
+.navsec.hidden {
+    top: -100px; 
+}
+
+.navsec.visible {
+    top: 0; 
+}
+
+.logo {
+    width: 170px;
+    margin-left: 50px;
+}
+
+.navshape {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -3;
+    opacity: 2;
+}
+
+.navsec ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 5px 28px;
+    font-size: 36px;
+    font-family: "Play", sans-serif;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 29px;
+    margin: 1px 20px;
+    
+}
+
+
+.navsec ul li:hover {
+    transform: scale(1.1);
+}
+
+.navsec ul {
+    margin-right: -250px;
+    margin-top: -50px;
+}
+
+.ctyselect {
+    margin-right: 20px;
+    margin-top: -24px;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+
+.lang {
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+}
+
+.country-dropdown {
+    padding: 0px;
+    width: 140px;
+    height: 35px;
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding-left: 10px;
+    outline: none;
+    font-weight:bold;
+    font-family:"Play", sans-serif ;
+}
+
+.country-dropdown option {
+    background-color: rgb(0, 0, 0);
+    color: rgb(79, 79, 79);
+    
+}
+
+.ximage {
+    position: absolute;
+    width: 390px;
+    height: auto;
+    z-index: 13;
+    margin-left: 190px;
+    margin-top: -12px;
+}
+
+.navli{
+    font-size: 29px;
+    margin: 1px -10px;
+    color: black;
+}
+.navsec ul li {
+    list-style: none;
+}
+
+.navsec ul li a {
+    text-decoration: none; 
+}

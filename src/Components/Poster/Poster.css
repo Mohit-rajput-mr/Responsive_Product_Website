@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Lilita+One&family=Outfit:wght@100..900&display=swap');
+
+.poster-sect{
+    position: relative;
+    top: -130px;
+}
+.poster-sect-main {
+    position: relative; /* Change to relative */
+    display: inline-block;
+    top: -330px;
+    right: -1120px;
+}
+
+.poster {
+    width: 210px;
+    height: auto;
+    border-radius: 20px;
+    position: relative; /* Ensure poster is relative for the glow effect */
+    z-index: 1; /* Ensure poster is above the glow */
+}
+
+.poster-sect-main::before {
+    content: '';
+    position: absolute;
+    top: -10px; /* Adjust for the desired glow effect */
+    left: -10px; /* Adjust for the desired glow effect */
+    width: calc(100% + 20px); /* Expand the glow beyond the image */
+    height: calc(100% + 20px); /* Expand the glow beyond the image */
+    background: rgba(97, 129, 97, 0.442); /* Green glow color */
+    filter: blur(8px); /* Blur for glowing effect */
+    z-index: -1; /* Place it behind the image */
+    border-radius: 16px; /* Match the border radius of the image */
+}
+.label{
+    position: relative;
+    top: -570px;
+    right: -1348px;
+    color: red;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-size: 56px;
+    cursor: pointer;
+    transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.label:hover {
+    border-color: #ffffff;
+    color: #22ff00;
+  }

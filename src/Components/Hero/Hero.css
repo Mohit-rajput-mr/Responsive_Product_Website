@@ -1,0 +1,61 @@
+.tyre{
+    position: relative;
+    width: 115%;
+    height: 640px ;
+    transform: rotate(-23deg);
+    opacity: 0.5;
+    left: -140px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Hide overflowed parts of images */
+    top: -120px;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  .hero-image{
+    position: absolute;
+    width: 40%;
+    height:auto;
+    top: 140px;
+    left: 100px;
+    border-radius: 30px;
+    z-index: 5;
+    border: 2px solid rgb(59, 58, 58);
+
+  }
+  .read-sect{
+    position: absolute;
+    top: 140px;
+    right: 150px;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  }
+
+  .read-btn{
+    width: 120px;
+    height: 49px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #00FF00, #008700);
+    color: black;
+    font-size: 26px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 3px solid rgb(49, 64, 26);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  .read-btn:hover{
+    transform: scale(1.1);
+  }

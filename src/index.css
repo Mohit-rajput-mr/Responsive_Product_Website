@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Outfit:wght@100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+body{
+  background: rgb(15, 15, 15);
+  overflow-x: hidden; 
+  overflow-y: auto;
+
+  
+}
